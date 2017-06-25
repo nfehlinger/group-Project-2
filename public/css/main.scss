@@ -1,4 +1,62 @@
-// Sass page, we'll have to make sure we all map this to the main.css file on our local drives
+// Universal
+$color-header: #7f7f7f;
+$color-headings: #555;
+$color-text: #333;
+
+header{
+	background-color: $color-header;
+	color: #fff;
+	h1{
+		font-family: 'Josefin Sans';
+		font-size: 40px;
+	}
+	nav{
+		font-family: 'Play';
+		font-size: 20px;
+		ul{
+			padding: 0;
+			li{
+				display: inline-block;
+				padding: 20px;
+				a{
+					color: #fff;
+					text-decoration: none;
+				}
+				a:hover{
+					border-bottom: 1px solid #fff;
+				}
+				a.active{
+					pointer-events: none;
+					cursor: default;
+					color:#ccc;
+				}
+			}
+		}
+	}
+}
+footer{
+	background-color:#000;
+	color: #fff;
+	font-family: 'Quicksand';
+	font-size: 14px;
+	p{
+		position: relative;
+		top: 70%;
+		left: 70%;
+	}
+	ul{
+		padding: 0;
+		list-style: none;
+		li{
+			padding: 5px;
+			a{
+				text-decoration: none;
+				color: #fff;
+			}
+		}
+	}
+}
+
 // Nick
 
 

@@ -1,1 +1,43 @@
-/*this should be fed from the sass file
+header {
+  background-color: #7f7f7f;
+  color: #fff; }
+  header h1 {
+    font-family: 'Josefin Sans';
+    font-size: 40px; }
+  header nav {
+    font-family: 'Play';
+    font-size: 20px; }
+    header nav ul {
+      padding: 0; }
+      header nav ul li {
+        display: inline-block;
+        padding: 20px; }
+        header nav ul li a {
+          color: #fff;
+          text-decoration: none; }
+        header nav ul li a:hover {
+          border-bottom: 1px solid #fff; }
+        header nav ul li a.active {
+          pointer-events: none;
+          cursor: default;
+          color: #ccc; }
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Quicksand';
+  font-size: 14px; }
+  footer p {
+    position: relative;
+    top: 70%;
+    left: 70%; }
+  footer ul {
+    padding: 0;
+    list-style: none; }
+    footer ul li {
+      padding: 5px; }
+      footer ul li a {
+        text-decoration: none;
+        color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
