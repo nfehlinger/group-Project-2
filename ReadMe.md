@@ -1,7 +1,7 @@
-#Group Project II Readme
-##A Guide
+# Group Project II Readme
+## A Guide
 
-###Technologies
+### Technologies
 * Ruby
 * Sinatra
 * JavaScript
@@ -15,24 +15,24 @@ Let's use this file to keep tabs on what we are doing to the site as we go. That
 I've been using the placeholder "SiteName" around what I've done so far, that way when we come up with a name (hopefully on Monday) we can just do command-F and find and replace "SiteName" to whatever we choose. I've also created some sections below so we can stay on topic in our communication.
 	-Nick
 
-###General Discussion
+### General Discussion
 
-###Layout ERB
+### Layout ERB
 * I put a container div around the yield for bootstrap so that it's automatically there when we are building out pages so you can just put rows and columns and not worry about wrapping it in a container.
 	-Nick
 
-###Home Page
+### Home Page
 
-###Categories Page(s)
+### Categories Page(s)
 
-###Product Pages
+### Product Pages
 
-###About Us
+### About Us
 
-###Ruby
+### Ruby
 * Right now I'm still working on how to create the random product selector in the nav so that link won't, you know, do anything. But I was thinking it would be a cool feature and it shouldn't be too hard to do.
 	-Nick
 
-###JS
+### JS
 
-###SASS/CSS (Styling)
+### SASS/CSS (Styling)
