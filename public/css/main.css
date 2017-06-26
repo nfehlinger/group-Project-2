@@ -42,19 +42,40 @@ footer {
 
 h2 {
   font-size: 40px;
-  color: #7f7f7f; }
+  color: #7f7f7f;
+  font-family: 'Josefin Sans'; }
+
+h3 {
+  font-size: 25px;
+  color: #333;
+  font-family: "Josefin Sans"; }
 
 p {
   font-size: 16px;
-  color: #333; }
+  color: #333;
+  font-family: 'Montserrat';
+  margin: 0; }
 
-.productName {
-  font-family: 'Josefin Sans'; }
-
-.description {
-  font-family: 'Montserrat'; }
-
-.productImage {
+img {
   width: 100%; }
+
+form {
+  width: 500px;
+  margin: 20px auto; }
+  form input {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    margin: 10px; }
+  form textarea {
+    height: 100px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px; }
+  form input[name="submit"] {
+    width: 100px;
+    margin-left: 80%; }
 
 /*# sourceMappingURL=main.css.map */
