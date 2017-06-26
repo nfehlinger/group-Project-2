@@ -40,21 +40,27 @@ footer {
         text-decoration: none;
         color: #fff; }
 
-h2 {
-  font-size: 40px;
-  color: #7f7f7f; }
+#gallery {
+  background-color: #000;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 20px; }
 
-p {
-  font-size: 16px;
-  color: #333; }
+.mySlides {
+  display: none;
+  max-height: 250px;
+  width: 300px;
+  margin: 0 auto; }
 
-.productName {
-  font-family: 'Josefin Sans'; }
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer; }
 
-.description {
-  font-family: 'Montserrat'; }
-
-.productImage {
-  width: 100%; }
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
