@@ -40,6 +40,7 @@ footer {
         text-decoration: none;
         color: #fff; }
 
+<<<<<<< HEAD
 #gallery {
   background-color: #000;
   width: 500px;
@@ -62,5 +63,23 @@ footer {
   height: 13px;
   width: 13px;
   padding: 0; }
+=======
+h2 {
+  font-size: 40px;
+  color: #7f7f7f; }
+
+p {
+  font-size: 16px;
+  color: #333; }
+
+.productName {
+  font-family: 'Josefin Sans'; }
+
+.description {
+  font-family: 'Montserrat'; }
+
+.productImage {
+  width: 100%; }
+>>>>>>> 963152065e1ccda3f9412e336cb6a23e7176ded2
 
 /*# sourceMappingURL=main.css.map */
