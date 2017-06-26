@@ -40,6 +40,30 @@ footer {
         text-decoration: none;
         color: #fff; }
 
+<<<<<<< HEAD
+#gallery {
+  background-color: #000;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 20px; }
+
+.mySlides {
+  display: none;
+  max-height: 250px;
+  width: 300px;
+  margin: 0 auto; }
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer; }
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0; }
+=======
 h2 {
   font-size: 40px;
   color: #7f7f7f; }
@@ -56,5 +80,6 @@ p {
 
 .productImage {
   width: 100%; }
+>>>>>>> 963152065e1ccda3f9412e336cb6a23e7176ded2
 
 /*# sourceMappingURL=main.css.map */
