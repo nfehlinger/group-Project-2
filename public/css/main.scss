@@ -58,7 +58,23 @@ footer{
 }
 
 // Nick
-
+h2{
+	font-size: 40px;
+	color:	$color-header;
+}
+p{
+	font-size: 16px;
+	color: $color-text;
+}
+.productName{
+	font-family: 'Josefin Sans';
+}
+.description{
+	font-family: 'Montserrat';
+}
+.productImage{
+	width: 100%;
+}
 
 // Hans
 
