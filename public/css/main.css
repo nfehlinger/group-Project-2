@@ -40,7 +40,6 @@ footer {
         text-decoration: none;
         color: #fff; }
 
-<<<<<<< HEAD
 #gallery {
   background-color: #000;
   width: 500px;
@@ -63,23 +62,42 @@ footer {
   height: 13px;
   width: 13px;
   padding: 0; }
-=======
 h2 {
   font-size: 40px;
-  color: #7f7f7f; }
+  color: #7f7f7f;
+  font-family: 'Josefin Sans'; }
+
+h3 {
+  font-size: 25px;
+  color: #333;
+  font-family: "Josefin Sans"; }
 
 p {
   font-size: 16px;
-  color: #333; }
+  color: #333;
+  font-family: 'Montserrat';
+  margin: 0; }
 
-.productName {
-  font-family: 'Josefin Sans'; }
-
-.description {
-  font-family: 'Montserrat'; }
-
-.productImage {
+img {
   width: 100%; }
->>>>>>> 963152065e1ccda3f9412e336cb6a23e7176ded2
+
+form {
+  width: 500px;
+  margin: 20px auto; }
+  form input {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    margin: 10px; }
+  form textarea {
+    height: 100px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px; }
+  form input[name="submit"] {
+    width: 100px;
+    margin-left: 80%; }
 
 /*# sourceMappingURL=main.css.map */

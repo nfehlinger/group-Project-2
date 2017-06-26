@@ -26,8 +26,18 @@ I've been using the placeholder "SiteName" around what I've done so far, that wa
 ### Categories Page(s)
 
 ### Product Pages
+<<<<<<< HEAD
+* The product pages are fed from a hash in the server file. Feel free to add any products you like, also Hans, if you want to feed your carousel with product images and make them clickable that would be the tits.
+	-Nick
+
+* Added categories as an attribute of the product hash so that we can build dynamic category pages based on the products.
+	-Nick
+=======
+>>>>>>> master
 
 ### About Us
+* Built out the basics of the about page and incorporate a placeholder form.
+	-Nick
 
 ### Ruby
 * Right now I'm still working on how to create the random product selector in the nav so that link won't, you know, do anything. But I was thinking it would be a cool feature and it shouldn't be too hard to do.
