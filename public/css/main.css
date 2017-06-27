@@ -88,7 +88,7 @@ form {
   height: 30px; }
 
 #gallery {
-  background: linear-gradient(black, rgba(100, 100, 100, 0));
+  background-color: black;
   width: 700px;
   height: 300px;
   display: block;
@@ -110,23 +110,50 @@ form {
     margin: 30px; }
 
 .featprod {
-  background: linear-gradient(#7f7f7f, rgba(100, 100, 100, 0));
-  border-radius: 1%;
-  width: 300px;
-  height: 170px;
-  margin: 10px; }
+  height: 250px;
+  margin-right: 3px;
+  border-left: 3px solid red; }
   .featprod p {
     float: right;
-    margin: 10px;
-    color: white;
+    padding: 10px;
+    color: #000;
     width: 110px; }
+
+.row {
+  margin: 3px 3px 3px 0; }
+
+.prodbox {
+  padding: 0; }
 
 .container {
   width: 95%; }
 
 .featimg {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-top: 0; }
+
+.short {
+  width: 250px;
   height: 150px;
-  width: 150px;
-  margin: 10px; }
+  overflow: hidden;
+  padding-bottom: 100px; }
+
+.top {
+  background-color: white; }
+
+.middle {
+  background-color: white; }
+
+.bottom {
+  margin-bottom: 50px;
+  background-color: white; }
+
+#background-color {
+  padding: 1px 1px 1px 0;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  background: linear-gradient(90deg, orange, red); }
 
 /*# sourceMappingURL=main.css.map */
