@@ -73,7 +73,8 @@ EMAILBODY
 	puts response.body
 	puts response.headers
 
-	redirect_to("/about")
+	redirect "/"
+
 end
 
 get '/p/:product' do
