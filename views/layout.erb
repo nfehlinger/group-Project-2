@@ -36,7 +36,7 @@
 </div>
 <footer>
 <div class="container"><div class="row">
-<div class="col-md-6">
+<div class="col-md-4">
 	<nav>
 		<ul>
 			<% while @n < @nav.length %>
@@ -47,11 +47,30 @@
 		</ul>
 	</nav>
 </div>
-<div class="col-md-6">
-	<p>© SiteName <span id="year"></span>.</p>
+<div class="col-md-4">
+<div class="wrap">
+	<p>SiteName</p>
+	<p>90 John Street</p>
+	<p>New York NY</p>
+	<p id="contactBtn">Contact Us</p>
+</div>
+</div>
+<div class="col-md-4">
+	<p id="copywrite">© SiteName <span id="year"></span>.</p>
 </div>
 </div></div>
 </footer>
+<div id="contact">
+<h3>Contact Us</h3>
+<div id="close">x</div>
+<form method="POST" action = "/about" id="comments">
+	<input type="text" name="name" placeholder="Name">
+	<input type="email" name="email" placeholder="Email">
+	<input type="text" name="subject" placeholder="Subject">
+	<textarea name="comment" placeholder="Questions? Comments? Concerns?"></textarea>
+	<input type="submit" name="submit">
+</form>
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>
