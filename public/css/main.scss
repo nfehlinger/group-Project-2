@@ -2,12 +2,16 @@
 $color-header: #7f7f7f;
 $color-headings: #555;
 $color-text: #333;
+$color-box: #330303;
+$color-brown: #905921;
 header{
-	background-color: $color-header;
+	background-color: rgba(100,100,100,.5);
 	color: #fff;
 	h1{
 		font-family: 'Josefin Sans';
 		font-size: 40px;
+		text-shadow: 3px 1px black;
+		color: white;
 	}
 	nav{
 		font-family: 'Play';
@@ -35,11 +39,15 @@ header{
 }
 
 footer{
-	background-color:#000;
+	background: linear-gradient(rgba(100,100,100,.0), black);
+
+	// background-color: $color-brown;
+	opacity: 50%;
 	color: #fff;
 	font-family: 'Quicksand';
 	font-size: 14px;
 	position: relative;
+	margin-bottom: none;
 	p{
 		position: absolute;
 		top: 70%;
@@ -78,6 +86,16 @@ p{
 }
 
 // Hans
+body {
+	background-image: url("../images/wood6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 0;
+}
+hr {
+	color: red;
+}
+
 #featured {
 	transform: rotate(-90deg);
 	margin-top: 100px;
@@ -86,7 +104,7 @@ p{
 	height: 30px;
 }
 #gallery {
-	background-color: #000;
+	background: linear-gradient(black, rgba(100,100,100,.0));
 	width:  700px;
 	height: 300px;
 	display: block;
@@ -109,17 +127,19 @@ p{
 	}
 }
 .featprod {
-	background-color: grey;
+	background: linear-gradient(rgba(159,133,100,.8), rgba(100,100,100,.0));
+	border-radius: 1%;
 	width: 300px;
 	height: 170px;
 	margin: 10px;
 	p {
 		float: right;
 		margin: 10px;
+		color: white;
 	}
 }
 .container {
-	width: 90%;
+	width: 95%;
 }
 .featimg {
 	height: 150px;

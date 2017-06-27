@@ -1,9 +1,11 @@
 header {
-  background-color: #7f7f7f;
+  background-color: rgba(100, 100, 100, 0.5);
   color: #fff; }
   header h1 {
     font-family: 'Josefin Sans';
-    font-size: 40px; }
+    font-size: 40px;
+    text-shadow: 3px 1px black;
+    color: white; }
   header nav {
     font-family: 'Play';
     font-size: 20px; }
@@ -23,11 +25,13 @@ header {
           color: #ccc; }
 
 footer {
-  background-color: #000;
+  background: linear-gradient(rgba(100, 100, 100, 0), black);
+  opacity: 50%;
   color: #fff;
   font-family: 'Quicksand';
   font-size: 14px;
-  position: relative; }
+  position: relative;
+  margin-bottom: none; }
   footer p {
     position: absolute;
     top: 70%;
@@ -58,6 +62,15 @@ p {
 .productImage {
   width: 100%; }
 
+body {
+  background-image: url("../images/wood6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0; }
+
+hr {
+  color: red; }
+
 #featured {
   transform: rotate(-90deg);
   margin-top: 100px;
@@ -66,7 +79,7 @@ p {
   height: 30px; }
 
 #gallery {
-  background-color: #000;
+  background: linear-gradient(black, rgba(100, 100, 100, 0));
   width: 700px;
   height: 300px;
   display: block;
@@ -88,16 +101,18 @@ p {
     margin: 30px; }
 
 .featprod {
-  background-color: grey;
+  background: linear-gradient(rgba(159, 133, 100, 0.8), rgba(100, 100, 100, 0));
+  border-radius: 1%;
   width: 300px;
   height: 170px;
   margin: 10px; }
   .featprod p {
     float: right;
-    margin: 10px; }
+    margin: 10px;
+    color: white; }
 
 .container {
-  width: 90%; }
+  width: 95%; }
 
 .featimg {
   height: 150px;
