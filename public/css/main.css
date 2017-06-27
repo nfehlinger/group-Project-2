@@ -31,6 +31,7 @@ footer {
   footer p {
     position: absolute;
     top: 70%;
+    color: #fff;
     right: 5%; }
   footer ul {
     padding: 0;
