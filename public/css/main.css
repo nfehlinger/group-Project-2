@@ -31,6 +31,7 @@ footer {
   footer p {
     position: absolute;
     top: 70%;
+    color: #fff; }
     right: 5%; }
   footer ul {
     padding: 0;
@@ -94,11 +95,6 @@ form {
   margin: 20px auto;
   padding: 25px 0; }
 
-.mySlides {
-  max-height: 250px;
-  width: 250px;
-  float: left; }
-
 .linkme {
   display: none;
   text-decoration: none; }
@@ -127,5 +123,12 @@ form {
   height: 150px;
   width: 150px;
   margin: 10px; }
+
+.mySlides {
+  display: none;
+  max-height: 250px;
+  width: 300px;
+  margin: 0 auto; }
+
 
 /*# sourceMappingURL=main.css.map */
