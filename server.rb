@@ -38,8 +38,8 @@ get '/category' do
 	@title = "Categories"
 
 erb :categories
-end
 
+end
 get '/c/:category' do
 	@category = @categories[@n].to_sym
 	@title = params[:category]

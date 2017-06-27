@@ -1,9 +1,10 @@
 header {
   background-color: #7f7f7f;
   color: #fff; }
-  header h1 {
+  header a h1 {
     font-family: 'Josefin Sans';
-    font-size: 40px; }
+    font-size: 40px;
+    color: #fff; }
   header nav {
     font-family: 'Play';
     font-size: 20px; }
@@ -192,12 +193,22 @@ img {
 .catNav {
   display: inline; }
 
+.prodName {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px; }
+
 .catDivs {
   width: 300px;
   height: 200px;
   background-size: cover;
   text-align: center;
-  display: inline-block; }
+  display: inline-block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 15px; }
 
 .catUL {
   width: 200px;
@@ -208,6 +219,13 @@ img {
   float: left;
   clear: both;
   font-size: 20px;
-  margin: 15px; }
+  margin: 15px;
+  font-family: "Play"; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+  a a:hover {
+    border-bottom: 2px solid #333; }
 
 /*# sourceMappingURL=main.css.map */
