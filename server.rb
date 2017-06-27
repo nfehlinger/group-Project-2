@@ -1,6 +1,9 @@
 require 'sinatra'
+# using SendGrid's Ruby Library
+# https://github.com/sendgrid/sendgrid-ruby
 require 'sendgrid-ruby'
 include SendGrid
+
 # Universal
 before do
 	@products = {
@@ -57,9 +60,9 @@ EMAILBODY
 	redirect_to("/about")
 end
 
-
 get '/:product' do
 @product = @products[params[:product].to_sym]
 @title = @product[:name]
 erb :product
+
 end

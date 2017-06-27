@@ -26,12 +26,13 @@ footer {
   background-color: #000;
   color: #fff;
   font-family: 'Quicksand';
-  font-size: 14px; }
+  font-size: 14px;
+  position: relative; }
   footer p {
-    position: relative;
+    position: absolute;
     top: 70%;
-    left: 70%;
     color: #fff; }
+    right: 5%; }
   footer ul {
     padding: 0;
     list-style: none; }
@@ -40,6 +41,78 @@ footer {
       footer ul li a {
         text-decoration: none;
         color: #fff; }
+
+h2 {
+  font-size: 40px;
+  color: #7f7f7f; }
+
+p {
+  font-size: 16px;
+  color: #333; }
+
+.productName {
+  font-family: 'Josefin Sans'; }
+
+.description {
+  font-family: 'Montserrat'; }
+
+.productImage {
+  width: 100%; }
+
+#featured {
+  transform: rotate(-90deg);
+  margin-top: 100px;
+  color: teal;
+  float: left;
+  height: 30px; }
+
+#gallery {
+  background: linear-gradient(black, rgba(100, 100, 100, 0));
+  width: 700px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+  padding: 25px 0; }
+
+.mySlides {
+  max-height: 250px;
+  width: 250px;
+  float: left; }
+
+.linkme {
+  display: none;
+  text-decoration: none; }
+  .linkme p {
+    color: white;
+    float: left;
+    width: 100px;
+    margin: 30px; }
+
+.featprod {
+  background: linear-gradient(#7f7f7f, rgba(100, 100, 100, 0));
+  border-radius: 1%;
+  width: 300px;
+  height: 170px;
+  margin: 10px; }
+  .featprod p {
+    float: right;
+    margin: 10px;
+    color: white; }
+
+.container {
+  width: 95%; }
+
+.featimg {
+  height: 150px;
+  margin: 10px; }
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer; }
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0; }
 
 h2 {
   font-size: 40px;
