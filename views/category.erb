@@ -1,17 +1,25 @@
 <!-- Steven -->
-<div class="categoriesNav">
-  <nav>
-    <ul>
-      <% while (@n < @categories.length) %>
-        <% @categories.each do |category| %>
-          <li><a href="/c/<%= @categories[@n] %>"><%= category %></a></li>
-          <% @n += 1 %>
-        <%end %>
-      <%end %>
-      <% @n = 0 %>
-    </ul>
-  </nav>
+<div class="row">
+  <div class="col-md-2">
+    <div class="catDivNav">
+      <nav class="catNav">
+        <ul class="catUL">
+          <% while (@n < @categories.length) %>
+            <% @categories.each do |category| %>
+              <li><a href="/c/<%= @categories[@n] %>"><%= category %></a></li>
+              <% @n += 1 %>
+            <%end %>
+          <%end %>
+          <% @n = 0 %>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <article class="catArt">
+      <% @products.select {|product,hash| hash[:categories].include? @title }.each do |product,hash| %>
+          <a href="/p/<%= product %>"><div class="catDivs" style="background-image:url(<%= hash[:image] %>)"> <%= hash[:name] %> </div></a>
+      <% end %>
+    </article>
+  </div>
 </div>
-<article>
-
-</article>

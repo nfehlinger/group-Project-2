@@ -31,7 +31,7 @@ footer {
   footer p {
     position: absolute;
     top: 70%;
-    color: #fff; }
+    color: #fff;
     right: 5%; }
   footer ul {
     padding: 0;
@@ -44,20 +44,41 @@ footer {
 
 h2 {
   font-size: 40px;
-  color: #7f7f7f; }
+  color: #7f7f7f;
+  font-family: 'Josefin Sans'; }
+
+h3 {
+  font-size: 25px;
+  color: #333;
+  font-family: "Josefin Sans"; }
 
 p {
   font-size: 16px;
-  color: #333; }
+  color: #333;
+  font-family: 'Montserrat';
+  margin: 0; }
 
-.productName {
-  font-family: 'Josefin Sans'; }
-
-.description {
-  font-family: 'Montserrat'; }
-
-.productImage {
+img {
   width: 100%; }
+
+form {
+  width: 500px;
+  margin: 20px auto; }
+  form input {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    margin: 10px; }
+  form textarea {
+    height: 100px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px; }
+  form input[name="submit"] {
+    width: 100px;
+    margin-left: 80%; }
 
 #featured {
   transform: rotate(-90deg);
@@ -114,65 +135,25 @@ p {
   width: 13px;
   padding: 0; }
 
-h2 {
-  font-size: 40px;
-  color: #7f7f7f;
-  font-family: 'Josefin Sans'; }
-
-h3 {
-  font-size: 25px;
-  color: #333;
-  font-family: "Josefin Sans"; }
-
-p {
-  font-size: 16px;
-  color: #333;
-  font-family: 'Montserrat';
-  margin: 0; }
-
-img {
-  width: 100%; }
-
-form {
-  width: 500px;
-  margin: 20px auto; }
-  form input {
-    display: block;
-    width: 100%;
-    height: 20px;
-    font-size: 16px;
-    margin: 10px; }
-  form textarea {
-    height: 100px;
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    margin: 10px; }
-  form input[name="submit"] {
-    width: 100px;
-    margin-left: 80%; }
-
-#gallery {
-  background-color: #000;
-  width: 500px;
-  height: 300px;
-  display: block;
-  margin: 20px auto;
+.catDivs {
+  width: 30%;
+  height: 200px;
+  background-size: cover;
   text-align: center;
-  padding-top: 20px; }
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px; }
 
-.mySlides {
-  display: none;
-  max-height: 250px;
-  width: 300px;
-  margin: 0 auto; }
+.catUL {
+  width: 200px;
+  list-style: none;
+  display: inline-block; }
 
-.w3-left, .w3-right, .w3-badge {
-  cursor: pointer; }
-
-.w3-badge {
-  height: 13px;
-  width: 13px;
-  padding: 0; }
+.catUL li {
+  float: left;
+  clear: both;
+  font-size: 20px;
+  margin: 15px; }
 
 /*# sourceMappingURL=main.css.map */
