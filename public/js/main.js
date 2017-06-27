@@ -23,17 +23,16 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("linkme");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "inline-block";  
-    setTimeout(carousel, 2000); 
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "inline-block";
+    setTimeout(carousel, 2000);
 }
 
 // Steven
 
 function name() {
-	
-}
 
+}

@@ -189,4 +189,43 @@ img{
 	width: 150px;
 	margin: 10px;
 }
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0;
+}
+
 // Steven
+
+.catArt {
+	float: left;
+	display: inline-block;
+}
+
+.catNav {
+	display: inline;
+}
+
+.catDivs {
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	text-align: center;
+	display: inline-block;
+}
+
+.catUL {
+	width: 200px;
+	list-style: none;
+	display: inline-block;
+}
+
+.catUL li {
+	float: left;
+	clear: both;
+	font-size: 20px;
+	margin: 15px;
+}
