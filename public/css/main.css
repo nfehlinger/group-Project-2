@@ -1,9 +1,10 @@
 header {
   background-color: #7f7f7f;
   color: #fff; }
-  header h1 {
+  header a h1 {
     font-family: 'Josefin Sans';
-    font-size: 40px; }
+    font-size: 40px;
+    color: #fff; }
   header nav {
     font-family: 'Play';
     font-size: 20px; }
@@ -68,25 +69,6 @@ p {
 
 img {
   width: 100%; }
-
-form {
-  width: 500px;
-  margin: 20px auto; }
-  form input {
-    display: block;
-    width: 100%;
-    height: 20px;
-    font-size: 16px;
-    margin: 10px; }
-  form textarea {
-    height: 100px;
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    margin: 10px; }
-  form input[name="submit"] {
-    width: 100px;
-    margin-left: 80%; }
 
 #contact {
   width: 600px;
@@ -203,15 +185,37 @@ form {
   margin-bottom: 100px;
   background: linear-gradient(90deg, orange, red); }
 
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer; }
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0; }
+
+.catArt {
+  float: left;
+  display: inline-block; }
+
+.catNav {
+  display: inline; }
+
+.prodName {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px; }
+
 .catDivs {
-  width: 30%;
+  width: 300px;
   height: 200px;
   background-size: cover;
   text-align: center;
   display: inline-block;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-top: 10px; }
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 15px; }
 
 .catUL {
   width: 200px;
@@ -222,12 +226,13 @@ form {
   float: left;
   clear: both;
   font-size: 20px;
-  margin: 15px; }
+  margin: 15px;
+  font-family: "Play"; }
 
-  .mySlides {
-    display: none;
-    max-height: 250px;
-    width: 300px;
-    margin: 0 auto; }
+a {
+  text-decoration: none;
+  color: #333; }
+  a a:hover {
+    border-bottom: 2px solid #333; }
 
 /*# sourceMappingURL=main.css.map */
