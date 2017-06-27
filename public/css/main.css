@@ -30,7 +30,8 @@ footer {
   footer p {
     position: relative;
     top: 70%;
-    left: 70%; }
+    left: 70%;
+    color: #fff; }
   footer ul {
     padding: 0;
     list-style: none; }
@@ -40,28 +41,6 @@ footer {
         text-decoration: none;
         color: #fff; }
 
-#gallery {
-  background-color: #000;
-  width: 500px;
-  height: 300px;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  padding-top: 20px; }
-
-.mySlides {
-  display: none;
-  max-height: 250px;
-  width: 300px;
-  margin: 0 auto; }
-
-.w3-left, .w3-right, .w3-badge {
-  cursor: pointer; }
-
-.w3-badge {
-  height: 13px;
-  width: 13px;
-  padding: 0; }
 h2 {
   font-size: 40px;
   color: #7f7f7f;
@@ -99,5 +78,28 @@ form {
   form input[name="submit"] {
     width: 100px;
     margin-left: 80%; }
+
+#gallery {
+  background-color: #000;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 20px; }
+
+.mySlides {
+  display: none;
+  max-height: 250px;
+  width: 300px;
+  margin: 0 auto; }
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer; }
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
