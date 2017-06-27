@@ -1,11 +1,19 @@
 <div class="row">
 	<div class="col-md-12">
-		
 		<div id="gallery">
 			<h2 id="featured">Daily Favorites</h2>
-			<a href="/product" class="linkme"><img class="mySlides" src="images/knife.jpg"><p>Hey wazzup</p></a>
-			<a href="/product" class="linkme"><img class="mySlides" src="images/whiskey-stones.jpg"><p>Hey hello</p></a>
-			<a href="/product" class="linkme"><img class="mySlides" src="images/wine.jpeg"><p>Hey que paso?</p></a>
+			<a href="/p/<%= @prod8.to_s %>" class="linkme">
+				<img width="250px" class="mySlides" src="<%= @products[@prod8][:image] %>">
+				<%= @products[@prod8][:name] %>
+			</a>
+			<a href="/p/<%= @prod9.to_s %>" class="linkme">
+				<img width="250px" class="mySlides" src="<%= @products[@prod9][:image] %>">
+				<%= @products[@prod9][:name] %>
+			</a>
+			<a href="/p/<%= @prod10.to_s %>" class="linkme">
+				<img width="250px" class="mySlides" src="<%= @products[@prod10][:image] %>">
+				<%= @products[@prod10][:name] %>
+			</a>
 		</div>	
 	</div>
 </div>
@@ -14,30 +22,42 @@
 		<div class="col col-md-3 prodbox">
 			<div class="featprod">
 				<div class="short">
-					<a href="/category"><img width="150px" class="featimg" src="images/knife.jpg"></a>
-					<p>Hey wazzup</p>
-					</div>
+					<a href="/p/<%= @prod1.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod1][:image] %>">
+						<%= @products[@prod1][:name] %>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="col col-md-9 prodbox">
 			<div class="featprod">
-				<a href="/product"><img width="150px" class="featimg" src="images/whiskey-stones.jpg"></a>
-				<p>Hey hello</p>
+				<div class="short">
+					<a href="/p/<%= @prod2.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod2][:image] %>">
+						<%= @products[@prod2][:name] %>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row middle">
 		<div class="col col-md-9 prodbox">
 			<div class="featprod">
-				<a href="/product"><img width="250px" class="featimg" src="images/wine.jpeg"></a>
-				<p>Hey que paso?</p>
+				<div class="short">
+					<a href="/p/<%= @prod3.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod3][:image] %>">
+						<%= @products[@prod3][:name] %>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="col col-md-3 prodbox">
 			<div class="featprod">
 				<div class="short">
-					<a href="/category"><img width="250px" class="featimg" src="images/wine.jpeg"></a>
-				<p>Hey que paso?</p>
+					<a href="/p/<%= @prod4.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod4][:image] %>">
+						<%= @products[@prod4][:name] %>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -46,24 +66,30 @@
 		<div class="col col-md-4 prodbox">
 			<div class="featprod">
 				<div class="short">
-					<a href="/product"><img width="250px" class="featimg" src="images/knife.jpg"></a>
-				<p>Hey wazzup</p>
+					<a href="/p/<%= @prod5.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod5][:image] %>">
+						<%= @products[@prod5][:name] %>
+					</a>
 				</div>
 			</div>
 		</div>
 		<div class="col col-md-4 prodbox">
 			<div class="featprod">
 				<div class="short">
-					<a href="/product"><img width="250px" class="featimg" src="images/whiskey-stones.jpg"></a>
-				<p>Hey hello</p>
+					<a href="/p/<%= @prod6.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod6][:image] %>">
+						<%= @products[@prod6][:name] %>
+					</a>
 				</div>
 			</div>
 		</div>
 		<div class="col col-md-4 prodbox">
 			<div class="featprod">
 				<div class="short">
-					<a href="/product"><img width="250px" class="featimg" src="images/wine.jpeg"></a>
-				<p>Hey que paso?</p>
+					<a href="/p/<%= @prod7.to_s %>" >
+						<img width="150px" class="featimg" src="<%= @products[@prod7][:image] %>">
+						<%= @products[@prod7][:name] %>
+					</a>
 				</div>
 			</div>
 		</div>

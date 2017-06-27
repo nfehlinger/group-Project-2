@@ -29,10 +29,18 @@ footer {
   font-size: 14px;
   position: relative; }
   footer p {
+    color: #fff; }
+  footer .wrap {
+    margin: 14px 0; }
+  footer p#copywrite {
     position: absolute;
     top: 70%;
     color: #fff;
     right: 5%; }
+  footer #contactBtn {
+    margin: 10px 0;
+    cursor: pointer;
+    display: inline-block; }
   footer ul {
     padding: 0;
     list-style: none; }
@@ -61,43 +69,64 @@ p {
 img {
   width: 100%; }
 
-form {
-  width: 500px;
-  margin: 20px auto; }
-  form input {
-    display: block;
-    width: 100%;
-    height: 20px;
-    font-size: 16px;
-    margin: 10px; }
-  form textarea {
-    height: 100px;
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    margin: 10px; }
-  form input[name="submit"] {
-    width: 100px;
-    margin-left: 80%; }
+#contact {
+  width: 600px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #555;
+  padding: 30px 50px;
+  border-radius: 25px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; }
+  #contact #close {
+    right: 15px;
+    top: 10px;
+    font-family: 'Montserrat';
+    position: absolute;
+    cursor: pointer; }
+  #contact h3 {
+    margin: 0; }
+  #contact form {
+    width: 500px;
+    margin: 20px auto; }
+    #contact form input {
+      display: block;
+      width: 100%;
+      height: 20px;
+      font-size: 16px;
+      margin-top: 10px; }
+    #contact form textarea {
+      height: 100px;
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      margin-top: 10px; }
+    #contact form input[name="submit"] {
+      width: 100px;
+      margin-left: 80%; }
 
 #featured {
   transform: rotate(-90deg);
-  margin-top: 100px;
+  margin-top: 210px;
   color: teal;
   float: left;
-  height: 30px; }
+  height: 30px;
+  font-size: 80px; }
 
 #gallery {
   background-color: black;
-  width: 700px;
-  height: 300px;
+  width: 100%;
+  height: 500px;
   display: block;
   margin: 20px auto;
   padding: 25px 0; }
 
 .mySlides {
-  max-height: 250px;
-  width: 250px;
+  max-height: 450px;
+  width: 450px;
   float: left; }
 
 .linkme {
@@ -107,12 +136,14 @@ form {
     color: white;
     float: left;
     width: 100px;
-    margin: 30px; }
+    margin: 30px;
+    font-size: 30px; }
 
 .featprod {
   height: 250px;
   margin-right: 3px;
-  border-left: 3px solid red; }
+  border-left: 3px solid red;
+  background-color: #444; }
   .featprod p {
     float: right;
     padding: 10px;
@@ -126,19 +157,17 @@ form {
   padding: 0; }
 
 .container {
-  width: 95%; }
+  width: 100%; }
 
 .featimg {
   height: 250px;
-  width: 250px;
   overflow: hidden;
   margin-top: 0; }
 
 .short {
   width: 250px;
-  height: 150px;
-  overflow: hidden;
-  padding-bottom: 100px; }
+  height: 250px;
+  overflow: hidden; }
 
 .top {
   background-color: white; }
@@ -155,5 +184,30 @@ form {
   padding-bottom: 100px;
   margin-bottom: 100px;
   background: linear-gradient(90deg, orange, red); }
+
+.catArt {
+  float: left;
+  display: inline-block; }
+
+.catNav {
+  display: inline; }
+
+.catDivs {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  text-align: center;
+  display: inline-block; }
+
+.catUL {
+  width: 200px;
+  list-style: none;
+  display: inline-block; }
+
+.catUL li {
+  float: left;
+  clear: both;
+  font-size: 20px;
+  margin: 15px; }
 
 /*# sourceMappingURL=main.css.map */
