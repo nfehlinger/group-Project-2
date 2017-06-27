@@ -1,5 +1,5 @@
 // Universal
-$color-header: #7f7f7f;
+$color-header: rgba(127,127,127,1);
 $color-headings: #555;
 $color-text: #333;
 header{
@@ -110,7 +110,7 @@ form{
 	height: 30px;
 }
 #gallery {
-	background-color: #000;
+	background: linear-gradient(black, rgba(100,100,100,.0));
 	width:  700px;
 	height: 300px;
 	display: block;
@@ -133,17 +133,19 @@ form{
 	}
 }
 .featprod {
-	background-color: grey;
+	background: linear-gradient($color-header, rgba(100,100,100,.0));
+	border-radius: 1%;
 	width: 300px;
 	height: 170px;
 	margin: 10px;
 	p {
 		float: right;
 		margin: 10px;
+		color: white;
 	}
 }
 .container {
-	width: 90%;
+	width: 95%;
 }
 .featimg {
 	height: 150px;

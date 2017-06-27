@@ -66,7 +66,7 @@ p {
   height: 30px; }
 
 #gallery {
-  background-color: #000;
+  background: linear-gradient(black, rgba(100, 100, 100, 0));
   width: 700px;
   height: 300px;
   display: block;
@@ -88,16 +88,18 @@ p {
     margin: 30px; }
 
 .featprod {
-  background-color: grey;
+  background: linear-gradient(#7f7f7f, rgba(100, 100, 100, 0));
+  border-radius: 1%;
   width: 300px;
   height: 170px;
   margin: 10px; }
   .featprod p {
     float: right;
-    margin: 10px; }
+    margin: 10px;
+    color: white; }
 
 .container {
-  width: 90%; }
+  width: 95%; }
 
 .featimg {
   height: 150px;
