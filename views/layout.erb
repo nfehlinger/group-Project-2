@@ -6,7 +6,7 @@
 	      href="images/gear.ico">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Play|Quicksand" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	<title><%= @title %></title>
 </head>
 <body>
@@ -23,7 +23,7 @@
 					<li> <a class ="navLink" href="<%= @nav[@n][:link] %>"><%= @nav[@n][:text] %></a></li>
 					<% @n += 1 %>
 				<% end %>
-				<% @n = 0 %> 
+				<% @n = 0 %>
 				</ul>
 			</nav>
 		</div>
@@ -42,7 +42,7 @@
 			<% while @n < @nav.length %>
 			<li> <a class ="navLink" href="<%= @nav[@n][:link] %>"><%= @nav[@n][:text] %></a></li>
 			<% @n += 1 %>
-		<% end %> 
+		<% end %>
 		<% @n = 0%>
 		</ul>
 	</nav>
