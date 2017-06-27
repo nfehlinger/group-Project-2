@@ -1,7 +1,6 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    json (2.1.0)
     mustermann (1.0.0)
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -19,10 +18,9 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
-  json
-  ruby_http_client
   sendgrid-ruby
   sinatra
 

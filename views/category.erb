@@ -17,7 +17,7 @@
   </div>
   <div class="col-md-10">
     <article class="catArt">
-      <% @products.each do |product,hash| %>
+      <% @products.select {|product,hash| hash[:categories].include? @title }.each do |product,hash| %>
           <a href="/p/<%= product %>"><div class="catDivs" style="background-image:url(<%= hash[:image] %>)"> <%= hash[:name] %> </div></a>
       <% end %>
     </article>

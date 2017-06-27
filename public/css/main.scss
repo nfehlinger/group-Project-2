@@ -42,10 +42,21 @@ footer{
 	font-size: 14px;
 	position: relative;
 	p{
+		color: #fff;
+	}
+	.wrap{
+		margin: 14px 0;
+	}
+	p#copywrite{
 		position: absolute;
 		top: 70%;
 		color: #fff;
 		right: 5%;
+	}
+	#contactBtn{
+		margin: 10px 0;
+		cursor: pointer;
+		display: inline-block;
 	}
 	ul{
 		padding: 0;
@@ -80,28 +91,52 @@ p{
 img{
 	width: 100%;
 }
-form{
-	width:	500px;
-	margin: 20px auto;
-	input{
-		display: block;
-		width: 100%;
-		height: 20px;
-		font-size: 16px;
-		margin: 10px;
+#contact{
+	width: 600px;
+	height: 350px;
+	background-color: rgba(255,255,255,0.9);
+	border: 2px solid $color-headings;
+	padding: 30px 50px;
+	border-radius: 25px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	#close{
+		right: 15px;
+		top: 10px;
+		font-family: 'Montserrat';
+		position: absolute;
+		cursor: pointer;
 	}
-	textarea{
-		height: 100px;
-		display: block;
-		width: 100%;
-		font-size: 16px;
-		margin: 10px;
+	h3{
+		margin: 0;
 	}
-	input[name="submit"]{
-		width: 100px;
-		margin-left: 80%;
+	form{
+		width:	500px;
+		margin: 20px auto;
+		input{
+			display: block;
+			width: 100%;
+			height: 20px;
+			font-size: 16px;
+			margin-top: 10px;
+		}
+		textarea{
+			height: 100px;
+			display: block;
+			width: 100%;
+			font-size: 16px;
+			margin-top: 10px;
+		}
+		input[name="submit"]{
+			width: 100px;
+			margin-left: 80%;
+		}
 	}
 }
+
 
 // Hans
 #featured {
@@ -182,4 +217,43 @@ form{
 	margin-bottom: 100px;
 	background: linear-gradient(90deg,orange,red);
 }
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0;
+}
+
 // Steven
+
+.catArt {
+	float: left;
+	display: inline-block;
+}
+
+.catNav {
+	display: inline;
+}
+
+.catDivs {
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	text-align: center;
+	display: inline-block;
+}
+
+.catUL {
+	width: 200px;
+	list-style: none;
+	display: inline-block;
+}
+
+.catUL li {
+	float: left;
+	clear: both;
+	font-size: 20px;
+	margin: 15px;
+}
