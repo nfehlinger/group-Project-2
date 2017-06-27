@@ -8,7 +8,7 @@ include SendGrid
 before do
 	@products = {
 		product_name:{name: "productName", image: "images/QA-Danny-DeVito-008.jpg", description: "product description goes here", categories: ["category1", "category2"]},
-		product_name2:{name: "productName2", image: "images/QA-Danny-DeVito-008.jpg", description: "product description 2 goes here", categories: ["category1", "category2"]}		
+		product_name2:{name: "productName2", image: "images/QA-Danny-DeVito-008.jpg", description: "product description 2 goes here", categories: ["category1", "category2"]}
 	}
 
 	@n = 0
@@ -57,6 +57,8 @@ puts response.status_code
 puts response.body
 puts response.headers
 redirect '/contact'
+
+end
 
 # Nick
 get '/:product' do
