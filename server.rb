@@ -57,6 +57,8 @@ EMAILBODY
 	puts response.body
 	puts response.headers
 
+	redirect "/"
+
 end
 
 get '/:product' do

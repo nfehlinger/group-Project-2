@@ -8,7 +8,12 @@ year = new Date().getFullYear()
 document.querySelector("#year").innerHTML = year
 
 // Nick
-
+document.querySelector("#contactBtn").addEventListener("click", function(){
+    document.querySelector("#contact").style.display = "block";
+});
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector("#contact").style.display = "none";
+});
 
 // Hans
 var myIndex = 0;
@@ -27,3 +32,8 @@ function carousel() {
 }
 
 // Steven
+
+function name() {
+	
+}
+
