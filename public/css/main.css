@@ -1,11 +1,9 @@
 header {
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: #7f7f7f;
   color: #fff; }
   header h1 {
     font-family: 'Josefin Sans';
-    font-size: 40px;
-    text-shadow: 3px 1px black;
-    color: white; }
+    font-size: 40px; }
   header nav {
     font-family: 'Play';
     font-size: 20px; }
@@ -25,13 +23,11 @@ header {
           color: #ccc; }
 
 footer {
-  background: linear-gradient(rgba(100, 100, 100, 0), black);
-  opacity: 50%;
+  background-color: #000;
   color: #fff;
   font-family: 'Quicksand';
   font-size: 14px;
-  position: relative;
-  margin-bottom: none; }
+  position: relative; }
   footer p {
     position: absolute;
     top: 70%;
@@ -61,15 +57,6 @@ p {
 
 .productImage {
   width: 100%; }
-
-body {
-  background-image: url("../images/wood6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 0; }
-
-hr {
-  color: red; }
 
 #featured {
   transform: rotate(-90deg);
@@ -101,7 +88,7 @@ hr {
     margin: 30px; }
 
 .featprod {
-  background: linear-gradient(rgba(159, 133, 100, 0.8), rgba(100, 100, 100, 0));
+  background: linear-gradient(#7f7f7f, rgba(100, 100, 100, 0));
   border-radius: 1%;
   width: 300px;
   height: 170px;
