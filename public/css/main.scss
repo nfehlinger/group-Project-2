@@ -2,6 +2,7 @@
 $color-header: rgba(127,127,127,1);
 $color-headings: #555;
 $color-text: #333;
+
 $color-clear: rgba(100,100,100,.0);
 $color-gallery: #e6f6ff;
 header{
@@ -12,25 +13,25 @@ header{
 		font-size: 40px;
 		color: #fff;
 	}
-	nav{
+	nav {
 		font-family: 'Play';
 		font-size: 20px;
-		ul{
+		ul {
 			padding: 0;
-			li{
+			li {
 				display: inline-block;
 				padding: 20px;
-				a{
+				a {
 					color: #fff;
 					text-decoration: none;
 				}
-				a:hover{
+				a:hover {
 					border-bottom: 1px solid #fff;
 				}
-				a.active{
+				a.active {
 					pointer-events: none;
 					cursor: default;
-					color:#ccc;
+					color: #ccc;
 				}
 			}
 		}
@@ -261,6 +262,7 @@ img{
 	margin: 15px;
 	background-color: rgba(255,255,255,.7);
 	padding: 5px;
+	border-radius: 5px;
 }
 .catDivs {
 	width: 300px;

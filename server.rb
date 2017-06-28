@@ -19,6 +19,14 @@ before do
 		skagen:{name: "Skagen Watch", image: "/images/skagen.jpg", description: "If you're a gentleman, you don't need a huge piece of bling on your wrist. You need an expensive timepiece which is sleek and classy. Something that shows the world you know what looks good, but don't need to flaunt it because you already knew what you are worth.", hook: "Hey there good looking, it's about time we got together.", categories: ["Fashion"]},
 		mustache:{name: "The Stache", image: "/images/stache.jpeg", description: "We know how it feels to desperately need to be a man. And as a gentleman it is your duty to show the world you can handle your own. Which always starts with your facial hair. If you want to be a respected member of society, people need to know that you have some hair before they care. And this may be very difficult, especially if you havent started smoking yet. So we give you the Stache. It is the ultimate mustache, turning your pinchable baby face into a symbol of power and manlihood. Making boys into men, and Biebers into lumberjacks for 100 years.", hook: "Make woman swoon with the Stache.", categories: ["Fashion", "Tools"]},
 		wooden_sunglasses:{name: "Wooden Sunglasses", image: "/images/sunglasses.jpg", description: "If you are a true gentleman you will have a pair of our wooden sunglasses to let everyone know you are willing to throw money away just for style. They look fantastic as well, but to be real they are mostly bought because of your insecurity and lack of confidence in your style. So pick up a pair today and hide from the world.", hook: "Protect against the shade you get every day, from everyone.", categories: ["Fashion", "Tools"]},
+		straight_razor:{name: "Straight razor", image: "/img/straightrazor.jpg", description: "For the true gentlemen, there's no other way to shave. Straight razors give you the cleanest shave you can get while also looking great. Any other shave is not going to work for men.", hook: "The manliest shave there is.", categories: ["Fashion", "Tools"]},
+    utility_pen:{name: "Utility Pen", image: "/img/utilitypen", description: "For men, we always need to be ready for any situation. In comes the Utility Pen. With a leveler, screwdriver, ruler, and most of all, a pen, you'll be ready for any situation." , hook: "Woman love a handy man." , categories:["Tools"]},
+		wine_picnic:{name: "Wine Picnic", image: "/images/cocktailPicnic", description: "When it's time for a cocktail and also time for a trip to the out of doors: Maybe it's time for both. Out doors and also picnics. make it heavy and real", hook: "Heyhhhhhhhhhhhhhh mami' check me out", categories: ["food", "fashion"]},
+    duck:{name: "Rubber Ducky", image: "/images/ducks.jpg", description: "For any man, you need a companion. And what better companion than the rubber duck you see right above? Go ahead, get it today. Do it.", hook: "Get a duck. Do it.", categories: ["Tools", "Toys"]},
+    battery_pack: {name: "Battery Pack", image: "/images/batterypack.jpg", description: "When you're going out, you're always going to need one of these. At 22Wh, you'll be able to charge multiple devices multiple times before you run out.", hook: "It's life proof. Hey, you never know.", categories: ["Tools"]},
+    appetite_guitar: {name: "Slash Appetite Les Paul Standard Guitar", image: "/images/appetiteguitar.jpg", description: "If it's just to have something to do or to impress everyone around (of course that's why you're doing it), this is the guitar for you.", hook: "Anyways, here's Wonderwall...", categories: ["Tools"]},
+    headphones: {name: "Headphones", image: "/images/headphones.jpg", description: "When it comes to headphones, these are the pair you need. Sleek design which looks great on any guy, with noise cancelling technology, they're the best headphones you can buy.", hook: "Sleek, noise cancelling, and affordable.", categories: ["Tools", "Fashion"]},
+    jacket: {name: "Leather Jacket", image: "/images/jacket.jpg", description: "With this fashionable jacket, look your best at all times. With real leather, this jacket will make anyone look like a man.", hook: "", categories: ["Fashion"]},
 
 	}
 	@categories = @products.reduce([]) do |arr,(key,hash)|
@@ -30,7 +38,7 @@ end
 
 # Hans
 get '/' do
-@title = "SiteName"
+@title = "Casual Gentlemen"
 
 (@prod1,@prod2,@prod3,@prod4,@prod5,@prod6,@prod7, @prod8, @prod9, @prod10) = @products.keys.sample(10)
 erb :home
