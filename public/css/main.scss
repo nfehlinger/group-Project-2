@@ -2,32 +2,32 @@
 $color-header: rgba(127,127,127,1);
 $color-headings: #555;
 $color-text: #333;
-header{
+header {
 	background-color: $color-header;
 	color: #fff;
-	h1{
+	h1 {
 		font-family: 'Josefin Sans';
 		font-size: 40px;
 	}
-	nav{
+	nav {
 		font-family: 'Play';
 		font-size: 20px;
-		ul{
+		ul {
 			padding: 0;
-			li{
+			li {
 				display: inline-block;
 				padding: 20px;
-				a{
+				a {
 					color: #fff;
 					text-decoration: none;
 				}
-				a:hover{
+				a:hover {
 					border-bottom: 1px solid #fff;
 				}
-				a.active{
+				a.active {
 					pointer-events: none;
 					cursor: default;
-					color:#ccc;
+					color: #ccc;
 				}
 			}
 		}

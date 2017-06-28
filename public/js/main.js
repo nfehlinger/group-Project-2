@@ -33,6 +33,6 @@ function carousel() {
 
 // Steven
 
-function name() {
+function searchProduct() {
 
 }

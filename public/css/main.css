@@ -69,26 +69,6 @@ p {
 img {
   width: 100%; }
 
-<<<<<<< HEAD
-form {
-  width: 500px;
-  margin: 20px auto; }
-  form input {
-    display: block;
-    width: 100%;
-    height: 20px;
-    font-size: 16px;
-    margin: 10px; }
-  form textarea {
-    height: 100px;
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    margin: 10px; }
-  form input[name="submit"] {
-    width: 100px;
-    margin-left: 80%; }
-=======
 #contact {
   width: 600px;
   height: 350px;
@@ -127,7 +107,6 @@ form {
     #contact form input[name="submit"] {
       width: 100px;
       margin-left: 80%; }
->>>>>>> a875b4131af7e0b37ac6e74bf64e5b6c08d7b1bb
 
 #featured {
   transform: rotate(-90deg);
@@ -143,6 +122,11 @@ form {
   display: block;
   margin: 20px auto;
   padding: 25px 0; }
+
+.mySlides {
+  max-height: 250px;
+  width: 250px;
+  float: left; }
 
 .linkme {
   display: none;
@@ -173,7 +157,6 @@ form {
   width: 150px;
   margin: 10px; }
 
-
 .w3-left, .w3-right, .w3-badge {
   cursor: pointer; }
 
@@ -182,15 +165,19 @@ form {
   width: 13px;
   padding: 0; }
 
+.catArt {
+  float: left;
+  display: inline-block; }
+
+.catNav {
+  display: inline; }
+
 .catDivs {
-  width: 30%;
+  width: 300px;
   height: 200px;
   background-size: cover;
   text-align: center;
-  display: inline-block;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-top: 10px; }
+  display: inline-block; }
 
 .catUL {
   width: 200px;
@@ -202,11 +189,5 @@ form {
   clear: both;
   font-size: 20px;
   margin: 15px; }
-
-  .mySlides {
-    display: none;
-    max-height: 250px;
-    width: 300px;
-    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
