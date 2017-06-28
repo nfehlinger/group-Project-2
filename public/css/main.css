@@ -185,7 +185,11 @@ img {
   .long img {
     width: auto;
     margin: 10px;
-    height: 230px; }
+    height: 230px;
+    border-radius: 3px; }
+  .long p {
+    font-size: 40px;
+    color: #555; }
 
 #background-color {
   padding: 1px 1px 1px 0;
