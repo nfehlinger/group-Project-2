@@ -1,7 +1,8 @@
 // Universal
 
 if (['/','/about','/category'].indexOf(window.location.pathname) >= 0){
-document.querySelector("a[href='" + window.location.pathname + "']").className="active"
+document.querySelector("a[href='" + window.location.pathname + "'].navLink").className="active"
+console.log("I'm a little piece of shit");
 }
 
 year = new Date().getFullYear()

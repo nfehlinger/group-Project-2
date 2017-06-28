@@ -136,12 +136,14 @@ img {
   .linkme .mySlides {
     height: 450px;
     width: auto;
+    margin-right: 0;
     margin: 25px; }
   .linkme p {
     color: #555;
     float: right;
     margin: 25px;
-    font-size: 60px; }
+    font-size: 60px;
+    word-wrap: break-word; }
 
 .featprod {
   height: 250px;
