@@ -110,24 +110,25 @@ img {
       margin-left: 80%; }
 
 #gallery {
-  background-color: black;
+  background-color: #e6f6ff;
   width: 100%;
   height: 500px;
   display: block;
-  margin: 20px auto;
-  padding: 10px;
+  margin-top: 20px auto 0 auto;
+  padding: 0;
   overflow: hidden;
   text-align: center; }
+  #gallery h2 {
+    transform: rotate(-90deg);
+    margin-top: 210px;
+    color: teal;
+    height: 30px;
+    width: 500px;
+    font-size: 70px; }
   #gallery a {
     width: 100%; }
-
-#gallery h2 {
-  transform: rotate(-90deg);
-  margin-top: 210px;
-  color: teal;
-  height: 30px;
-  width: 500px;
-  font-size: 70px; }
+  #gallery img {
+    float: left; }
 
 .linkme {
   display: none;
@@ -135,24 +136,24 @@ img {
   .linkme .mySlides {
     height: 450px;
     width: auto;
-    margin: 10px; }
+    margin: 25px; }
   .linkme p {
-    color: white;
+    color: #555;
     float: right;
-    margin: 10px;
-    font-size: 20px; }
+    margin: 25px;
+    font-size: 60px; }
 
 .featprod {
   height: 250px;
-  border-left: 3px solid red;
-  background-color: #444;
+  border-left: 3px solid #7f7f7f;
+  background-color: #fff;
   padding-left: 0;
   padding-right: 0; }
   .featprod p {
     float: right;
     padding: 10px;
     color: #000;
-    width: 110px; }
+    display: inline; }
 
 .row {
   margin: 3px 3px 3px 0; }
@@ -170,30 +171,27 @@ img {
   margin-top: 0; }
 
 .short {
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
   .short img {
-    width: 100%; }
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
 
-.long img {
-  width: auto; }
-
-.mid img {
-  width: auto; }
-
-.top {
-  background-color: white; }
-
-.middle {
-  background-color: white; }
-
-.bottom {
-  background-color: white; }
+.long {
+  padding-right: 10px; }
+  .long img {
+    width: auto;
+    margin: 10px;
+    height: 230px; }
 
 #background-color {
   padding: 1px 1px 1px 0;
   margin-bottom: 100px;
-  background: linear-gradient(90deg, orange, red); }
+  background-color: #7f7f7f; }
+
+.col-md-12 {
+  padding: 0; }
 
 .catArt {
   float: left;

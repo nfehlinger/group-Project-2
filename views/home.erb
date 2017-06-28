@@ -2,13 +2,13 @@
 	<div class="col-md-12">
 		<div id="gallery">
 			<a href="/p/<%= @prod8.to_s %>" class="linkme">
-				<img width="250px" class="mySlides" src="<%= @products[@prod8][:image] %>"><p><%= @products[@prod8][:description] %></p>
+				<img width="250px" class="mySlides" src="<%= @products[@prod8][:image] %>"><p><%= @products[@prod8][:hook] %></p>
 			</a>
 			<a href="/p/<%= @prod9.to_s %>" class="linkme">
-				<img width="250px" class="mySlides" src="<%= @products[@prod9][:image] %>"><p><%= @products[@prod9][:description] %></p>
+				<img width="250px" class="mySlides" src="<%= @products[@prod9][:image] %>"><p><%= @products[@prod9][:hook] %></p>
 			</a>
 			<a href="/p/<%= @prod10.to_s %>" class="linkme">
-				<img width="250px" class="mySlides" src="<%= @products[@prod10][:image] %>"><p><%= @products[@prod10][:description] %></p>
+				<img width="250px" class="mySlides" src="<%= @products[@prod10][:image] %>"><p><%= @products[@prod10][:hook] %></p>
 			</a>
 		</div>	
 	</div>
@@ -19,7 +19,6 @@
 			<div class="featprod short">
 					<a href="/p/<%= @prod1.to_s %>" >
 						<img width="150px" class="featimg" src="<%= @products[@prod1][:image] %>">
-						<p><%= @products[@prod1][:name] %></p>
 					</a>
 			</div>
 		</div>
@@ -27,7 +26,7 @@
 			<div class="featprod long">
 					<a href="/p/<%= @prod2.to_s %>" >
 						<img width="150px" class="featimg" src="<%= @products[@prod2][:image] %>">
-						<p><%= @products[@prod2][:name] %></p>
+						<p><%= @products[@prod2][:hook] %></p>
 					</a>
 			</div>
 		</div>
@@ -37,7 +36,7 @@
 			<div class="featprod long">
 					<a href="/p/<%= @prod3.to_s %>" >
 						<img width="150px" class="featimg" src="<%= @products[@prod3][:image] %>">
-						<p><%= @products[@prod3][:name] %></p>
+						<p><%= @products[@prod3][:hook] %></p>
 					</a>
 			</div>
 		</div>
@@ -45,25 +44,23 @@
 			<div class="featprod short">
 					<a href="/p/<%= @prod4.to_s %>" >
 						<img width="150px" class="featimg" src="<%= @products[@prod4][:image] %>">
-						<p><%= @products[@prod4][:name] %></p>
 					</a>
 			</div>
 		</div>
 	</div>
 	<div class="row bottom">
 		<div class="col col-md-3 prodbox">
-			<div class="featprod mid">
+			<div class="featprod short">
 					<a href="/p/<%= @prod5.to_s %>" >
 						<img width="150px" class="featimg" src="<%= @products[@prod5][:image] %>">
-						<p><%= @products[@prod5][:name] %></p>
 					</a>
 			</div>
 		</div>
 		<div class="col col-md-9 prodbox">
-			<div class="featprod mid">
+			<div class="featprod long">
 					<a href="/p/<%= @prod7.to_s %>" >
 						<img width="150px" class="featimg" src="<%= @products[@prod7][:image] %>">
-						<p><%= @products[@prod7][:name] %></p>
+						<p><%= @products[@prod7][:hook] %></p>
 					</a>
 			</div>
 		</div>
