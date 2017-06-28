@@ -4,6 +4,7 @@ $color-headings: #555;
 $color-text: #333;
 
 $color-clear: rgba(100,100,100,.0);
+$color-gallery: #e6f6ff;
 header{
 	background-color: $color-header;
 	color: #fff;
@@ -141,48 +142,59 @@ img{
 
 
 // Hans
-#featured {
-	transform: rotate(-90deg);
-	margin-top: 210px;
-	color: teal;
-	float: left;
-	height: 30px;
-	font-size:80px;
-}
+
 #gallery {
-	background-color: black;
+	background-color: $color-gallery;
 	width:  100%;
 	height: 500px;
 	display: block;
-	margin: 20px auto;
-	padding: 25px 0;
-}
-.mySlides {
-	max-height: 450px;
-	width: 450px;
-	float: left;
+	margin-top: 20px auto 0 auto;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	h2 {
+	transform: rotate(-90deg);
+	margin-top: 210px;
+	color: teal;
+	height: 30px;
+	width: 500px;
+	font-size:70px;
+	}
+	a {
+		width: 100%;
+	}
+	img {
+		float: left;
+	}
 }
 .linkme {
 	display: none;
 	text-decoration: none;
+	.mySlides {
+	height: 450px;
+	width: auto;
+	margin-right: 0;
+	margin: 25px;
+	}
 	p {
-		color: white;
-		float: left;
-		width: 100px;
-		margin: 30px;
-		font-size: 30px;
+		color: $color-headings;
+		float: right;
+		margin: 25px;
+		font-size: 60px;
+		word-wrap: break-word;
 	}
 }
 .featprod {
 	height: 250px;
-	margin-right: 3px;
-	border-left: 3px solid red;
-	background-color: #444;
+	border-left: 3px solid $color-header;
+	background-color: #fff;
+	padding-left: 0;
+	padding-right: 0;
 	p {
 		float: right;
 		padding: 10px;
 		color: #000;
-		width: 110px;
+		display: inline;
 	}
 }
 .row {
@@ -196,32 +208,42 @@ img{
 }
 .featimg {
 	height: 250px;
-	// width: 250px;
+	width: auto;
 	overflow: hidden;
 	margin-top: 0;
 }
 .short {
-	width: 250px;
-	height: 250px;
-	overflow: hidden;
+	width: 100%;
+	
+	img {
+		object-fit: cover;
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+
+	}
 }
-.top {
-	background-color: white;
-}
-.middle {
-	background-color: white;
-}
-.bottom {
-	margin-bottom: 50px;
-	background-color: white;
+.long {
+	padding-right: 10px;
+	img {
+	width: auto;
+	margin: 10px;
+	height: 230px;
+	border-radius: 3px;
+	}
+	p {
+		font-size: 40px;
+		color: $color-headings;
+	}
 }
 #background-color {
 	padding: 1px 1px 1px 0;
-	padding-bottom: 100px;
 	margin-bottom: 100px;
-	background: linear-gradient(90deg,orange,red);
+	background-color: $color-header;
 }
-
+.col-md-12 {
+	padding: 0;
+}
 // Steven
 
 .catArt {
@@ -238,6 +260,7 @@ img{
 	margin: 15px;
 	background-color: rgba(255,255,255,.7);
 	padding: 5px;
+	border-radius: 5px;
 }
 .catDivs {
 	width: 300px;
