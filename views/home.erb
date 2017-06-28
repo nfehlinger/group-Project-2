@@ -2,13 +2,29 @@
 	<div class="col-md-12">
 		<div id="gallery">
 			<a href="/p/<%= @prod8.to_s %>" class="linkme">
-				<img width="250px" class="mySlides" src="<%= @products[@prod8][:image] %>"><p><%= @products[@prod8][:hook] %></p>
+				<div class="row">
+				<div class="col-md-7">	<img width="250px" class="mySlides" src="<%= @products[@prod8][:image] %>"></div>
+				<div class="col-md-5">
+				<p><%= @products[@prod8][:hook] %></p>
+				</div>
+				</div>
 			</a>
 			<a href="/p/<%= @prod9.to_s %>" class="linkme">
-				<img width="250px" class="mySlides" src="<%= @products[@prod9][:image] %>"><p><%= @products[@prod9][:hook] %></p>
+				<div class="row">
+				<div class="col-md-7">	<img width="250px" class="mySlides" src="<%= @products[@prod9][:image] %>"></div>
+				<div class="col-md-5">
+				<p><%= @products[@prod9][:hook] %></p>
+				</div>
+				</div>
 			</a>
 			<a href="/p/<%= @prod10.to_s %>" class="linkme">
-				<img width="250px" class="mySlides" src="<%= @products[@prod10][:image] %>"><p><%= @products[@prod10][:hook] %></p>
+				<div class="row">
+				<div class="col-md-7"> <img width="250px" class="mySlides" src="<%= @products[@prod10][:image] %>">
+				</div>
+				<div class="col-md-5">
+				<p><%= @products[@prod10][:hook] %></p>
+				</div>
+				</div>
 			</a>
 		</div>	
 	</div>
