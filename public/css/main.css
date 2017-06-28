@@ -109,42 +109,45 @@ img {
       width: 100px;
       margin-left: 80%; }
 
-#featured {
-  transform: rotate(-90deg);
-  margin-top: 210px;
-  color: teal;
-  float: left;
-  height: 30px;
-  font-size: 80px; }
-
 #gallery {
   background-color: black;
   width: 100%;
   height: 500px;
   display: block;
   margin: 20px auto;
-  padding: 25px 0; }
+  padding: 10px;
+  overflow: hidden;
+  text-align: center; }
+  #gallery a {
+    width: 100%; }
 
-.mySlides {
-  max-height: 450px;
-  width: 450px;
-  float: left; }
+#gallery h2 {
+  transform: rotate(-90deg);
+  margin-top: 210px;
+  color: teal;
+  height: 30px;
+  width: 500px;
+  font-size: 70px; }
 
 .linkme {
   display: none;
   text-decoration: none; }
+  .linkme .mySlides {
+    height: 450px;
+    width: auto;
+    margin: 10px; }
   .linkme p {
     color: white;
-    float: left;
-    width: 100px;
-    margin: 30px;
-    font-size: 30px; }
+    float: right;
+    margin: 10px;
+    font-size: 20px; }
 
 .featprod {
   height: 250px;
-  margin-right: 3px;
   border-left: 3px solid red;
-  background-color: #444; }
+  background-color: #444;
+  padding-left: 0;
+  padding-right: 0; }
   .featprod p {
     float: right;
     padding: 10px;
@@ -162,13 +165,21 @@ img {
 
 .featimg {
   height: 250px;
+  width: auto;
   overflow: hidden;
   margin-top: 0; }
 
 .short {
-  width: 250px;
-  height: 250px;
+  width: 100%;
   overflow: hidden; }
+  .short img {
+    width: 100%; }
+
+.long img {
+  width: auto; }
+
+.mid img {
+  width: auto; }
 
 .top {
   background-color: white; }
@@ -177,12 +188,10 @@ img {
   background-color: white; }
 
 .bottom {
-  margin-bottom: 50px;
   background-color: white; }
 
 #background-color {
   padding: 1px 1px 1px 0;
-  padding-bottom: 100px;
   margin-bottom: 100px;
   background: linear-gradient(90deg, orange, red); }
 
