@@ -20,6 +20,7 @@ before do
 		mustache:{name: "The Stache", image: "/images/stache.jpeg", description: "We know how it feels to desperately need to be a man. And as a gentleman it is your duty to show the world you can handle your own. Which always starts with your facial hair. If you want to be a respected member of society, people need to know that you have some hair before they care. And this may be very difficult, especially if you havent started smoking yet. So we give you the Stache. It is the ultimate mustache, turning your pinchable baby face into a symbol of power and manlihood. Making boys into men, and Biebers into lumberjacks for 100 years.", hook: "Make woman swoon with the Stache.", categories: ["Fashion", "Tools"]},
 		wooden_sunglasses:{name: "Wooden Sunglasses", image: "/images/sunglasses.jpg", description: "If you are a true gentleman you will have a pair of our wooden sunglasses to let everyone know you are willing to throw money away just for style. They look fantastic as well, but to be real they are mostly bought because of your insecurity and lack of confidence in your style. So pick up a pair today and hide from the world.", hook: "Protect against the shade you get every day, from everyone.", categories: ["Fashion", "Tools"]},
 
+		wine_picnic:{name: "Wine Picnic", image: "/images/cocktailPicnic", description: "When it's time for a cocktail and also time for a trip to the out of doors: Maybe it's time for both. Out doors and also picnics. make it heavy and real", hook: "Heyhhhhhhhhhhhhhh mami' check me out", categories: ["food", "fashion"]},
 	}
 	@categories = @products.reduce([]) do |arr,(key,hash)|
 		arr | hash[:categories]
@@ -30,7 +31,7 @@ end
 
 # Hans
 get '/' do
-@title = "SiteName"
+@title = "Casual Gentlemen"
 
 (@prod1,@prod2,@prod3,@prod4,@prod5,@prod6,@prod7, @prod8, @prod9, @prod10) = @products.keys.sample(10)
 erb :home
