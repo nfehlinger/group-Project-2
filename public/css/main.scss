@@ -228,6 +228,11 @@ img{
 	width: auto;
 	margin: 10px;
 	height: 230px;
+	border-radius: 3px;
+	}
+	p {
+		font-size: 40px;
+		color: $color-headings;
 	}
 }
 #background-color {
