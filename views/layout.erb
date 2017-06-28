@@ -11,26 +11,21 @@
 </head>
 <body>
 <header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<h1>Go Go Gadgets</h1>
-			</div>
-			<div class="col-md-7">
-				<nav>
-					<ul>
-					<% while @n < @nav.length %>
-						<li> <a class ="navLink" href="<%= @nav[@n][:link] %>"><%= @nav[@n][:text] %></a></li>
-						<% @n += 1 %>
-					<% end %>
-					<% @n = 0 %>
-					</ul>
-				</nav>
-			</div>
-			<div class="col-md-2">
-				<input style="width:200px"type="text" id="searchBar">
-				<button onclick="searchProduct()">Search</button>
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<a href="/"><h1>Go Go Gadgets</h1></a>
+		</div>
+		<div class="col-md-9">
+			<nav>
+				<ul>
+				<% while @n < @nav.length %>
+					<li> <a class ="navLink" href="<%= @nav[@n][:link] %>"><%= @nav[@n][:text] %></a></li>
+					<% @n += 1 %>
+				<% end %>
+				<% @n = 0 %>
+				</ul>
+			</nav>
 		</div>
 	</div>
 </header>
@@ -74,6 +69,6 @@
 	<input type="submit" name="submit">
 </form>
 </div>
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
