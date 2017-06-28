@@ -7,8 +7,8 @@ include SendGrid
 # Universal
 before do
 	@products = {
-		knife:{name: "Knife", image: "/images/knife.jpg", description: "Multi-purpose knife, for cutting all types of bullshit out of your life", hook: "Hey mami' check me out", categories: ["Tools"]},
-		whiskey_stones:{name: "Whiskey stones", image: "/images/whiskey-stones.jpg", description: "Keeps your whiskey pure and cold", hook: "Hey mami' check me out", categories: ["Drinks","Tools"]},
+		knife:{name: "Knife", image: "/images/knife.jpg", description: "Multi-purpose knife, for cutting all types of bullshit out of your life", hook: "Cut out the hassle, get something awesome", categories: ["Tools"]},
+		whiskey_stones:{name: "Whiskey stones", image: "/images/whiskey-stones.jpg", description: "Keeps your whiskey pure and cold", hook: "Chill, bro. Seriously, you're harshing my vibe.", categories: ["Drinks","Tools"]},
 		drone:{name: "Drone", image: "/images/drone.jpg", description: "What are your neighbors up to? Take peeking tom to the next level", hook: "Hey mami' check me out", categories: ["Toys"]},
 		hot_sauce:{name: "Hot Sauce", image: "/images/hotsauce.jpg", description: "Bring some spice into your life", hook: "Hey mami' check me out", categories: ["Food"]},
 		wine_opener:{name: "Wine Opener", image: "/images/wine.jpeg", description: "Portable wine opener to get her drunk anywhere", hook: "Hey mami' check me out", categories: ["Drinks"]},
@@ -27,7 +27,7 @@ end
 
 # Hans
 get '/' do
-@title = "SiteName"
+@title = "Casual Gentlemen"
 
 (@prod1,@prod2,@prod3,@prod4,@prod5,@prod6,@prod7, @prod8, @prod9, @prod10) = @products.keys.sample(10)
 erb :home
